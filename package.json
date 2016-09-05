@@ -1,0 +1,27 @@
+{
+  "name": "headerparser",
+  "version": "1.0.0",
+  "description": "Header parser microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeySapr/headerparser.git"
+  },
+  "keywords": [
+    "API",
+    "header",
+    "parser"
+  ],
+  "author": "Sergey Saprykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeySapr/headerparser/issues"
+  },
+  "homepage": "https://github.com/SergeySapr/headerparser#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2"
+  }
+}
