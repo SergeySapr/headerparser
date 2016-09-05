@@ -4,7 +4,8 @@
   "description": "Header parser microservice",
   "main": "server.js",
   "scripts": {
-    "test": "test.js"
+    "test": "test.js",
+    "start":"server.js"
   },
   "repository": {
     "type": "git",
