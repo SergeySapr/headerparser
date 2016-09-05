@@ -16,6 +16,6 @@ userInfo.OS = arrAgent[0].match(/\((.+)/)[1];
 });
 var port = +process.env.PORT||8080
 
-app.listen(port, function () {console.log(process.env.PORT,process.env.IP);
-  console.log('User-info app listening on port 8080!');
+app.listen(port, process.env.IP, function () {
+  console.log('User-info app listening on port ' +  port);
 });
